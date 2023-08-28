@@ -5,7 +5,6 @@
         window.error('Console.save: No data')
         return;
       }
-      
       if(typeof data === "object"){
         data = JSON.stringify(data)
       }
